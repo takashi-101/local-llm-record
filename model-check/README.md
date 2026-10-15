@@ -41,7 +41,7 @@ python3 modelcheck.py model.gguf --record "https://huggingface.co/..."
 ## 本リポジトリでの位置づけ（導入から定着まで）
 
 1. **入口** — このツールによる受け入れ検査（このフォルダ）
-2. **配置判定** — クラウドかローカルか（fde/cloud-or-local.html）
+2. **配置判定** — クラウドかローカルか（[fde-checklist](https://github.com/takashi357/fde-checklist) の cloud-or-local.html）
 3. **構築** — WSLのメモリ割り当て7.6GBで動く構成（genai/）
 4. **検収** — 出力の照合と非送信の証跡（check.py・genai/evidence.py）
-5. **定着** — フルリモートFDEジョブエイド（fde/jobaid.html）の手順書・引き渡しフェーズ
+5. **定着** — フルリモートFDEジョブエイド（[fde-checklist](https://github.com/takashi357/fde-checklist) の jobaid.html）の手順書・引き渡しフェーズ
