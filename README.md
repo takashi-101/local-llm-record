@@ -121,3 +121,10 @@ python rag.py 3
 - [genai/](genai/) — **少ないメモリで動く閉域RAG**。上記「動作環境」の制約（WSLの割り当て7.6GBでは12.11GBのモデルが載らない）への対応として、gemma3:4b＋bge-m3（2つ合わせて約4.5GB）に収めた構成です。実行ごとに外部への通信がないことを確認し、入出力のハッシュを連鎖させて記録します。ブラウザUI付きで、Python標準ライブラリと素のHTML/CSS/JSのみで実装しています。
 - [pc-check/](pc-check/) — **ローカルLLM活用診断・PC分担作業台**。手持ちのPC（メモリ8GB／16GB）で、ローカルLLMを業務のどこにどう使えるかを判断するWebアプリです。8GBのPCで資料を準備し、16GBのPCでLLMを使う作業分担も試せます。
 - [fde-checklist](https://github.com/takashi-101/fde-checklist)（別リポジトリ） — **導入支援のチェックリスト**。現場に入ってAI導入を進める役割（FDE：Forward Deployed Engineer）を想定した、リモートでの作業チェックリスト（6フェーズ24項目）と、デジタル庁の基準（DS-920）に沿って生成AIの利用形態（約款型サービス／専用環境／ローカル）を判定する補助ツールです。
+
+## 根拠（学習）
+
+| 機能 | 裏付けになる学習（発行元・名称・発行日） | 照会先（Credly） |
+|---|---|---|
+| 通信を遮断したPCでの実行と、外部に送信していないことの証跡 | Amazon Web Services Training and Certification「AWS Knowledge: Security Champion - Training Badge」2025年11月10日 | https://www.credly.com/badges/ddab077d-58eb-4807-bec1-69e5c6aeb9a5 |
+| 全文入力とRAG（関連部分だけを検索して渡す方式）の比較、閉域RAG（`genai/`） | IBM SkillsBuild「Getting Started with Generative AI」2026年2月4日 | https://www.credly.com/badges/fe03a06a-d5ee-4b44-97e7-0d9fdb26f88c |
