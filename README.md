@@ -1,5 +1,7 @@
 # 閉域環境でのローカルLLM：出力検収の記録と関連ツール
 
+[![tests](https://github.com/takashi-101/local-llm-record/actions/workflows/tests.yml/badge.svg)](https://github.com/takashi-101/local-llm-record/actions/workflows/tests.yml)
+
 ## 概要（30秒で読めます）
 
 - **問い**：インターネットに接続しない（閉域の）PCでローカルLLMに規程文書を読ませたとき、守るべき事項を漏れなく抜き出せるか。抜き出せたかを、どう確かめるか。
