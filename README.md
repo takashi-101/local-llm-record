@@ -132,3 +132,7 @@ python rag.py 3
 | 生成AI・LLMの実装（RAG・エージェント・MCP） | 全文入力とRAG（関連部分だけを検索して渡す方式）の比較、閉域RAG（`genai/`） | IBM SkillsBuild「Getting Started with Generative AI」2026年2月4日 | https://www.credly.com/badges/fe03a06a-d5ee-4b44-97e7-0d9fdb26f88c |
 
 「求められる力」の分け方は、[プロフィール](https://github.com/takashi-101) の「FDE・AXで求められる力と、その根拠」と同じです。
+
+## ライセンス
+
+MIT（[LICENSE](LICENSE)）。`pc-check/dist/fonts/` に同梱したフォントは SIL Open Font License 1.1 です（[LICENSE.txt](pc-check/dist/fonts/LICENSE.txt)）。
